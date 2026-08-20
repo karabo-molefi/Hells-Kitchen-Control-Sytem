@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contestant\Contestant.cs" />
+    <Compile Include="Contestant\PastrySpeciality.cs" />
+    <Compile Include="Contestant\SeafoodSpeciality.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestuarantServices\ChallengeService.cs" />
+    <Compile Include="RestuarantServices\Service.cs" />
+    <Compile Include="RestuarantServices\StandardService.cs" />
+    <Compile Include="RestuarantServices\VIPService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
