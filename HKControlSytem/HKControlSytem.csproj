@@ -46,6 +46,10 @@
     <Compile Include="Contestant\Contestant.cs" />
     <Compile Include="Contestant\PastrySpeciality.cs" />
     <Compile Include="Contestant\SeafoodSpeciality.cs" />
+    <Compile Include="DishesAndStations\Dish.cs" />
+    <Compile Include="Exeptions\InvalidYesNoException.cs" />
+    <Compile Include="KitchenIncidentsAndNotifications\IKitechenNotifictionsInterface.cs" />
+    <Compile Include="KitchenIncidentsAndNotifications\Incident.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RestuarantServices\ChallengeService.cs" />
